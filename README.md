@@ -1,2 +1,5 @@
-# oblig-test1
-oblig1 1700
+# oblig-test1 Input, knapp, javascript. 
+
+
+
+
