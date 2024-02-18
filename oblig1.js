@@ -31,12 +31,26 @@ function registrerBillett(){
 
     billettRegister.push(person);
 
-    if(isNaN(antall)){
-    document.getElementById("film-feilmelding").innerHTML = "Du må skrive et heltall";
+    if(isNaN(antall) || antall.value=== ""){
+    document.getElementById("antall-feilmelding").innerHTML = "Du må skrive et heltall";
 }
+
+    if(fornavn.value === ""){
+        document.getElementById("fornavn-feilmelding").innerHTML = "Du må skrive navnet ditt";
+    }
+
+    if(etternavn.value === ""){
+        document.getElementById("etternavn-feilmelding").innerHTML = "Du må skrive etternavnet ditt";
+    }
+
+    if(telefonnr.value === "" || isNaN(telefonnr)){
+        document.getElementById("telefonnr-feilmelding").innerHTML = "Du må skrive telefonnummeret ditt";
+    }
+
+    if(epost.value === "" || epost.value == null){
+        document.getElementById("epost-feilmelding").innerHTML = "Du må skrive eposten din";
+    }
     
-
-
     let ut =  "<table><tr>";
         ut+= "<th> Film </th><th> Antall</th><th> Fornavn </th><th> Etternavn </th> <th> Telefonnr</th><th>E-post</th>"
         ut+= "</tr>";
@@ -51,13 +65,15 @@ function registrerBillett(){
 }
 
 
-function slettBilett(){
+function slettBillett(){
     document.getElementById("film").value ="";
     document.getElementById("antall").value ="";
     document.getElementById("fornavn").value ="";
     document.getElementById("etternavn").value ="";
     document.getElementById("telefonnr").value = "";
     document.getElementById("epost").value ="";
-
-    billettRegister.splice(6);
 }
+
+
+// lage feilmelding.
+// slett knappen. 
