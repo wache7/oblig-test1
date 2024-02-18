@@ -4,8 +4,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script defer src="oblig1.js"> </script>
 </head>
 <body>
-    <h1> Testing</h1>
+    Velg film: <select name="film" id="film">
+        <option value="oppenheimer"> Oppenheimer</option>
+        <option value="barbie"> Barbie</option>
+        <option value="cars"> Cars</option>
+        <option value="karateKid"> Karate kid</option>
+        <option value="ip-man"> Ip-man</option>
+    </select>
+    <div id="film-feilmelding"> </div> <br>
+
+    Antall: <input type="text" id="antall" value=""/>
+    <div id="antall-feilmelding"> </div> <br>
+
+    Fornavn: <input type="text" id="fornavn" value=""/> 
+    <div id="fornavn-feilmelding"> </div> <br>
+    Etternavn: <input type="text" id="etternavn" value=""/> 
+    <div id="etternavn-feilmelding"> </div> <br>
+    Telefonnr: <input type="text" id="telefonnr" value=""/>
+    <div id="telefonnr-feilmelding"> </div> <br>
+    E-post: <input type="text" id="epost" value=""/>
+    <div id="epost-feilmeding"> </div> <br>
+
+    <button onclick="registrerBillett()"> Kjøp billett </button>
+
+    <h2> Alle billetter </h2>
+
+    <div id="output"> </div>
+
+    <button onclick="slettBillett()"id="slett" > Slett alle billettene </button>
+
 </body>
 </html>
