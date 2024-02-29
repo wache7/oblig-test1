@@ -2,14 +2,12 @@
 
 
 ## Beskrivelse
-I dette prosjektet lærer man å bruke grunnleggende ferdigheter i html og javascript for å motta brukerinput og en verdi fra nedtrykksliste
-idet en knapp tilknyttet til en funksjon, blir aktivert. 
+Webprogrammets funksjon er å lagre personopplysninger i forhold til kjøp av kinobiletter og å slette kinobiletter dersom brukeren angrer på å ha kjøpt billettene. 
 
 ## Framgangsmåte
-1. Lage inputbokser ved bruk av input element i html og lage div bokser under hver input boks. <input type="text" id="/>
+1. Lage inputbokser ved bruk av input element i html og lage div elementer som skriver ut feilmeldingen til brukeren.
 2. Lage en knapp for å bestille bilett og en annen for å slette billett med onclick som inneholder en funksjon fylt med javascript. 
-3. hente lage variabler som henter brukerinput ved bruk peke på iden på følgende måte document.getElementbyID("(navnet til id)").
-4. 
+3. lage variabler som henter brukerinput ved bruk peke på iden til input-elementet.
 5. Lager en funksjon som skal fremvise resultatet.
 6. lager en variabel som inneholder boolean true, dette er nyttig for å ikke pushe input som ikke innfrir kravet, eks. null input eller bokstav i input som skal inneholde tall. 
 7. Lage et tomt array som skal ta imot objekter som inneholder personopplysninger.
