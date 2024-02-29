@@ -2,7 +2,7 @@
 
 
 ## Beskrivelse
-Webprogrammets funksjon er å lagre personopplysninger i forhold til kjøp av kinobiletter og å slette kinobiletter dersom brukeren angrer på å ha kjøpt billettene. 
+Webprogrammets funksjon er å lagre personopplysninger i forhold til kjøp av kinobilletter og å slette kinobilletter dersom brukeren angrer på å ha kjøpt billettene. 
 
 ## Framgangsmåte
 1. Lage inputbokser ved bruk av input element i html og lage div elementer som skriver ut feilmeldingen til brukeren.
