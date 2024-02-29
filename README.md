@@ -13,7 +13,7 @@ Webprogrammets funksjon er å lagre personopplysninger i forhold til kjøp av ki
 6. Lager et tomt array som skal ta imot objekter som inneholder personopplysninger.
 7. lager et objekt inni som lagrer verdier fra brukerinput.
 8. lager argumenter inni if setning for å fange feil med brukerinput, deretter skriver en melding ved bruk av innerHTML og setter variabel boolean false.
-9. lager en if setning for riktige input, pusher objektet inn i arrayet og kjører en funksjon som oppretter strukturen til en tabellen og lagrer verdiene fra objekter.
-10. lager til slutt en funksjon til en slettknapp hvor jeg setter arrayet tomt og meldingen som skriver ut tabellen tomt.
+9. lager en if setning for riktige input, pusher objektet inn i arrayet og kjører en funksjon som oppretter strukturen til tabellen og lagrer verdiene fra objekter.
+10. lager til slutt en funksjon til en slettknapp som sletter tabellen ved å sette arrayet lik tomt.
 
 
